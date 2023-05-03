@@ -52,6 +52,7 @@ FAQ
 TERMS AND CONDITIONS 
 STYLE GALLERY 
 
+payment = https://github.com/amelbourne2002/A3_Start/blob/master/assets/payment_options.jpg?raw=true
 
 New Arrivals:
 
