@@ -1,0 +1,68 @@
+Homepage:
+
+<!--This is for the banner at the top-->
+Bumper Sale: Get all products only at $40. Limited Period Offer
+
+hamburger menu = 
+
+Logo = https://github.com/amelbourne2002/A3_Start/blob/master/assets/logo.jpg?raw=true
+
+search icon = 
+favorite icon =
+cart icon = 
+
+Image 1 = https://github.com/amelbourne2002/A3_Start/blob/master/assets/image%208.jpg?raw=true
+
+New Arrivals
+Bring the latest fashion trends to life by letting us keep your wardrobe updated...Runway style! Select from 21 different sizes in every garment or customize your own.
+
+Shop Now 
+Login
+Don't have an account? Sign up
+
+“We are committed to hand crafted clothing. Clothing that defines you ... that is simply you!”
+
+Feature Image 1 = https://github.com/amelbourne2002/A3_Start/blob/master/assets/image%207.jpg?raw=true
+View Summer
+
+Feature Image 2 = https://github.com/amelbourne2002/A3_Start/blob/master/assets/image%204.jpg?raw=true
+View Dresses
+
+Feature Image 3 = https://github.com/amelbourne2002/A3_Start/blob/master/assets/image%201.jpg?raw=true
+View Accessories
+
+Dresses for all sizes
+We think that customized clothing empowers the users by giving them choice to select and buy best fitting clothes to enrich their wardrobe. We aim to offer affordable custom clothing to match every customer's unique style and size profile.
+Shop Now
+
+Image 2 = https://github.com/amelbourne2002/A3_Start/blob/master/assets/lance-reis-NM4CiigBnvo-unsplash%201.jpg?raw=true
+
+JOIN US FOR 15% OFF YOUR FIRST ORDER
+EMAIL
+Sign up
+
+I agree to receive exclusive offers and first access to new collections and sale from Lurap in accordance with the Terms & Conditions and Privacy Policy.
+
+ABOUT US
+CONTACT US 
+SIZING 
+SHIPPING
+RETURN POLICY 
+FAQ 
+TERMS AND CONDITIONS 
+STYLE GALLERY 
+
+
+New Arrivals:
+
+Bumper Sale: Get all products only at $40. Limited Period Offer
+
+hamburger menu = 
+
+Logo = https://github.com/amelbourne2002/A3_Start/blob/master/assets/logo.jpg?raw=true
+
+search icon = 
+favorite icon =
+cart icon = 
+
+
