@@ -3,13 +3,13 @@ Homepage:
 <!--This is for the banner at the top-->
 Bumper Sale: Get all products only at $40. Limited Period Offer
 
-hamburger menu = 
+hamburger menu = https://raw.githubusercontent.com/amelbourne2002/A3_Start/21937887de3931dd46559dcfa1a8a3e5ee60e564/assets/menu-burger.svg
 
 Logo = https://github.com/amelbourne2002/A3_Start/blob/master/assets/logo.jpg?raw=true
 
-search icon = 
-favorite icon =
-cart icon = 
+search icon = https://raw.githubusercontent.com/amelbourne2002/A3_Start/21937887de3931dd46559dcfa1a8a3e5ee60e564/assets/search.svg
+favorite icon = https://raw.githubusercontent.com/amelbourne2002/A3_Start/4ab3ad3dde673676db7a4a8b2f8aef460f0e5d6a/assets/heart.svg
+cart icon = https://raw.githubusercontent.com/amelbourne2002/A3_Start/4ab3ad3dde673676db7a4a8b2f8aef460f0e5d6a/assets/shopping-cart.svg
 
 Image 1 = https://github.com/amelbourne2002/A3_Start/blob/master/assets/image%208.jpg?raw=true
 
