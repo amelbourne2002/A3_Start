@@ -34,6 +34,7 @@ h1 {
 }
 
 .material-symbols-outlined {
+  color: #171A20;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
@@ -54,5 +55,47 @@ h1 {
 }
 
 .banner__text{
-    color: #fff;
+    color: #ffffff;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.burger__menu{
+    
+}
+
+nav > img {
+    width: 160px;
+}
+
+.sidebar-close{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*.cluster {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cluster > * {
+    margin: 0.5rem;
+}*/
+
+
