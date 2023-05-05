@@ -117,3 +117,8 @@ nav > img {
     width: 1109px;
     height: 358px;
 }
+
+.photo-strip{
+    background-color: var(--colour-pink-dark);
+    height: 381px;
+}
