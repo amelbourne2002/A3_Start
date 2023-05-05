@@ -34,7 +34,7 @@ h1 {
 }
 
 .material-symbols-outlined {
-  color: #171A20;
+  color: var(--colour-text-dark);
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
@@ -98,4 +98,22 @@ nav > img {
     margin: 0.5rem;
 }*/
 
+.hero__cta{
+    background-color: var(--colour-green-light);
+    opacity: .8;
+    width: 731px;
+    height: 795px;
+}
 
+.box__border{
+    background-color: var(--colour-light);
+    border: solid var(--colour-pink-dark);
+    width: 1173px;
+    height: 416px;
+}
+
+.box__inner{
+    background-color: var(--colour-pink-light);
+    width: 1109px;
+    height: 358px;
+}
