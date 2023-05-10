@@ -10,14 +10,15 @@
     --colour-pink-light: #F4E7E2;
     --colour-pink-dark: #EABEC2;
     --colour-beige: #A99688;
-    --colour-light: #FFFFFF;
+    --colour-light: #F4F4F4;
+    --colour-white: #FFFFFF;
     --colour-text-light: #F2EFEB;
     --colour-text-medium: #AE9686;
     --colour-text-dark: #171A20;
 }
 
 body {
-    font-family: var(--font-body);
+    font-family: var(--font-body1);
     color: var(--colour-dark);
 }
 header, footer {
@@ -27,11 +28,35 @@ header, footer {
 
 h1 {
     font-family: var(--font-heading);
+    color: var(--colour-text-light);
 }
 
-img {
-    max-width: 100%;
+p {
+    font-family: var(--font-body1);
+    color: var(--colour-text-light);
 }
+
+.btn {
+    text-decoration: none;
+    padding: 0.75rem 2rem;
+    border-radius: .5rem;
+}
+
+.btn-primary {
+    background-color: var(--colour-light);
+    color: var(--colour-text-dark);
+}
+
+.btn-secondary {
+    background-color: var(--colour-beige);
+    color: var(--colour-text-light);
+}
+
+.btm-tertiary {
+    background-color: var(--colour-dark);
+    color: var(--colour-text-light);
+}
+
 
 *{
     margin: 0;
@@ -79,7 +104,7 @@ nav > img {
     width: 160px;
 }
 
-.sidebar-close{
+.menubar-close{
     display: flex;
     justify-content: flex-start;
 }
@@ -101,13 +126,58 @@ nav > img {
 .cluster > * {
     margin: 0.5rem;
 }*/
+/*
+.sidebar-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sidebar{
+    flex-basis: 40rem;
+    flex-grow: 1;
+}
+
+.not-sidebar{
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: 50%;
+}*/
+
+.hero{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.stack{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.Image-1{
+    width: 80%;
+    height: 70%;
+}
 
 .hero__cta{
     background-color: var(--colour-green-light);
     opacity: .8;
-    width: 731px;
+    width: 100%;
     height: 795px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    justify-content: center;
 }
+
+.hero__cta < p
+
 
 .box__border{
     background-color: var(--colour-light);
