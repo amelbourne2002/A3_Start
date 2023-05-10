@@ -29,6 +29,10 @@ h1 {
     font-family: var(--font-heading);
 }
 
+img {
+    max-width: 100%;
+}
+
 *{
     margin: 0;
 }
