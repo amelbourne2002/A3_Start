@@ -189,6 +189,11 @@ nav > img {
     font-size: 1.3rem;
 }
 
+.hero__cta > .sign-up {
+    font-size: .8rem;
+    color: var(--colour-text-light);
+}
+
 
 .box__border{
     background-color: var(--colour-light);
