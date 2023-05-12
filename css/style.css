@@ -162,7 +162,7 @@ nav > img {
 }
 
 .Image-1{
-    width: 50%;
+    width: 40%;
     height: 50%;
 }
 
@@ -170,9 +170,8 @@ nav > img {
     background-color: var(--colour-green-light);
     opacity: .8;
     width: 100%;
-    height: 650px;
-    margin-top: auto;
-    margin-bottom: auto;
+    /*margin-top: auto;
+    margin-bottom: auto;*/
     padding-left: 40px;
     padding-right: 40px;
 
