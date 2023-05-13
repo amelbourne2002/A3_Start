@@ -7,8 +7,9 @@
     --font-label: 'Inter', sans-serif;
     --colour-green-light: #B1A664;
     --colour-green-dark: #8A8B4A;
-    --colour-pink-light: #F4E7E2;
-    --colour-pink-dark: #EABEC2;
+    --colour-pink-light: #EBE3DE;
+    --colour-pink-medium: #F4E0E5;
+    --colour-pink-dark: #E8CCD2;
     --colour-beige: #A99688;
     --colour-light: #F4F4F4;
     --colour-white: #FFFFFF;
@@ -95,21 +96,31 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding:10px 20px;
 }
 
-.burger__menu{
-    
-}
-
-nav > img {
+.logo {
     width: 160px;
 }
 
-.menubar-close{
+.nav-bar-container{
+    width: 50%;
+    margin: auto;
+}
+
+.nav-bar{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center; 
+}
+
+.nav-bar > li{
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+.nav-bar > li > a{
+    text-decoration: none;
 }
 
 .nav-icons{
@@ -117,6 +128,11 @@ nav > img {
     justify-content: space-between;
     align-items: center;
 }
+
+.nav-icons > li {
+    padding: 0px 5px;
+}
+
 
 /*.cluster {
     display: flex;
@@ -170,8 +186,8 @@ nav > img {
     background-color: var(--colour-green-light);
     opacity: .8;
     width: 100%;
-    /*margin-top: auto;
-    margin-bottom: auto;*/
+    margin-top: auto;
+    margin-bottom: auto;
     padding-left: 40px;
     padding-right: 40px;
 
@@ -193,7 +209,7 @@ nav > img {
     color: var(--colour-text-light);
 }
 
-
+/*
 .box__border{
     background-color: var(--colour-light);
     border: solid var(--colour-pink-dark);
@@ -211,3 +227,4 @@ nav > img {
     background-color: var(--colour-pink-dark);
     height: 381px;
 }
+*/
