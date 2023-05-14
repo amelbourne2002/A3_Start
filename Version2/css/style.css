@@ -224,7 +224,28 @@ nav {
     color: var(--colour-text-medium);
 }
 
-.photo-strip{
-    background-color: var(--colour-pink-dark);
-    height: 381px;
+#gallery{
+    background-color: var(--colour-pink-light);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
 }
+
+#gallery > #feature {
+
+}
+
+#feature > .img__div{
+    width: 80%;
+    height: 50%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+
