@@ -167,6 +167,7 @@ nav {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate( -50%, -50% );
 }
 
 .stack{
@@ -177,20 +178,19 @@ nav {
 }
 
 .hero__cta{
-    align-items: center;
-}
-
-.hero__content{
-    width: 100%;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-top: 2rem;
+    align-self: center;
 }
 
 .hero__content > h1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-size: 2.8rem;
 }
 
 .hero__content > p {
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-size: 1rem;
 }
 
