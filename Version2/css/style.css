@@ -56,7 +56,7 @@ p {
     color: var(--colour-text-light);
 }
 
-.btm-tertiary {
+.btn-tertiary {
     background-color: var(--colour-button-dark);
     color: var(--colour-text-light);
 }
@@ -247,5 +247,34 @@ nav {
     margin-bottom: 1.2rem;
 }
 
+.plus_section {
+    background-color: #F2EFEB;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.plus_section > img{
+    width: 40%;
+}
+
+.plus_section > .plus__cta{
+  background-color: var(--colour-green-dark);  
+}
+
+.plus__cta > h1 {
+    color: var(--colour-text-dark);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2.8rem;
+}
+
+.plus__cta > p {
+    color: var(--colour-text-dark);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem; 
+}
 
 
