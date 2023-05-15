@@ -226,10 +226,8 @@ nav {
 
 #gallery{
     background-color: var(--colour-pink-light);
-    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 2rem 2rem;
     padding-bottom: 3rem;
@@ -237,15 +235,17 @@ nav {
 }
 
 #gallery > #feature {
-
-}
-
-#feature > .img__div{
-    width: 80%;
-    height: 50%;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+
 }
+
+#feature > img{
+    width: 70%;
+    border-radius: 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
 
 
