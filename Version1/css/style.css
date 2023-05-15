@@ -241,6 +241,7 @@ nav > img {
     min-width: 200px;
     margin-bottom: 50px;
     width: 25%;
+    transition: transform 0.5s;
 }
 .col-4 img{
     width: 80%
@@ -266,5 +267,7 @@ h4{
 .center {
     text-align: center;
 }
-
+.col-4:hover{
+    transform: translateY(-5px);
+}
   
