@@ -211,6 +211,8 @@ nav > img {
     background-color: var(--colour-pink-dark);
     height: 381px;
 }
+
+
 .categories{
     margin: 70px 0;
 }
@@ -222,6 +224,11 @@ nav > img {
 .col-3 img{
     width: 100%;
 }
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -10px;
+}
 .small-container{
     max-width: 1080px;
     margin: auto;
@@ -229,11 +236,30 @@ nav > img {
     padding-right: 25px;
 }
 .col-4{
-    flex-basis: 25%;
-    padding: 10px;
+    flex: 0 0 calc(33.33% - 20px);
+    padding: 0 10px;
     min-width: 200px;
     margin-bottom: 50px;
+    width: 25%;
 }
 .col-4 img{
-    width: 20%
+    width: 80%
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: black;
+    font-family: var(--font-heading);
+    font-size: 40px;
+}
+
+h4{
+    color: Black;
+    font-weight: normal;
+    font-family: var(--font-body1)
+}
+.col-4 p{
+    font-size: 14px;
 }
