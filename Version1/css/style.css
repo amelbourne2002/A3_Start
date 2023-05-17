@@ -6,9 +6,10 @@
     --font-body2: 'Lora', serif;
     --font-label: 'Inter', sans-serif;
     --colour-green-light: #B1A664;
-    --colour-green-dark: #8A8B4A;
-    --colour-pink-light: #F4E7E2;
-    --colour-pink-dark: #EABEC2;
+    --colour-green-dark: #9e9e6b;
+    --colour-pink-light: #EBE3DE;
+    --colour-pink-medium: #F4E0E5;
+    --colour-pink-dark: #E8CCD2;
     --colour-beige: #A99688;
     --colour-light: #F4F4F4;
     --colour-white: #FFFFFF;
@@ -104,9 +105,6 @@ nav {
     padding-right: 20px;
 }
 
-.burger__menu{
-    
-}
 
 nav > img {
     width: 160px;
