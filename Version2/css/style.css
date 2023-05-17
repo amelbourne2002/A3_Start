@@ -50,7 +50,7 @@ p {
 .btn-primary {
     background-color: var(--colour-button-light);
     color: var(--colour-text-dark);
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 .btn-secondary {
@@ -62,7 +62,7 @@ p {
 .btn-tertiary {
     background-color: var(--colour-button-dark);
     color: var(--colour-text-light);
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 .btn-primary-2{
@@ -72,23 +72,27 @@ p {
 }
 
 .btn-primary:hover{
-    background-color: var(--colour-button-light);
+    background-color: #cecbbe;
     color: var(--colour-text-dark);
+    box-shadow: rgb(62, 42, 29) 0px 20px 30px -10px;
 }
 
 .btn-secondary:hover{
-    background-color: var(--colour-button-medium);
+    background-color: #766355;
     color: var(--colour-text-light);
+    box-shadow: rgb(62, 42, 29) 0px 20px 30px -10px;
 }
 
 .btn-tertiary:hover{
-    background-color: var(--colour-button-dark);
+    background-color: #313132;
     color: var(--colour-text-light);
+    box-shadow: rgb(54, 62, 47) 0px 20px 30px -10px;
 }
 
 .btn-primary-2:hover{
-    background-color: #F4F4F4;
+    background-color: #ebbdbd;
     color: var(--colour-text-dark);
+    box-shadow: rgb(152, 99, 110) 0px 20px 30px -10px;
 }
 
 
