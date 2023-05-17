@@ -42,8 +42,9 @@ p {
 
 .btn {
     text-decoration: none;
-    padding: 0.75rem 2rem;
+    padding: 0.75rem 3rem;
     border-radius: .5rem;
+    font-size: 1.2rem;
 }
 
 .btn-primary {
@@ -55,7 +56,7 @@ p {
 .btn-secondary {
     background-color: var(--colour-button-medium);
     color: var(--colour-text-light);
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .btn-tertiary {
@@ -68,6 +69,26 @@ p {
     background-color: #F4F4F4;
     color: var(--colour-text-dark);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn-primary:hover{
+    background-color: var(--colour-button-light);
+    color: var(--colour-text-dark);
+}
+
+.btn-secondary:hover{
+    background-color: var(--colour-button-medium);
+    color: var(--colour-text-light);
+}
+
+.btn-tertiary:hover{
+    background-color: var(--colour-button-dark);
+    color: var(--colour-text-light);
+}
+
+.btn-primary-2:hover{
+    background-color: #F4F4F4;
+    color: var(--colour-text-dark);
 }
 
 
@@ -86,6 +107,13 @@ p {
 
 .material-symbols-outlined:hover{
     color: var(--colour-text-medium);
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    align-items: center;
 }
 
 .banner{
@@ -154,8 +182,6 @@ nav {
     padding: 0px 5px;
 }
 
-
-
 .hero-image-container{
     position: relative;
     display: flex;
@@ -178,22 +204,18 @@ nav {
     transform: translate( -50%, -50% );
 }
 
-.stack{
+.hero__content {
     display: flex;
     flex-direction: column;
     gap: 1.2em;
     align-items: center;
-}
-
-.hero__cta{
-    padding-top: 2rem;
-    align-self: center;
+    height: 25%;
 }
 
 .hero__content > h1 {
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: 3rem;
+    font-size: 3.2rem;
 }
 
 .hero__content > p {
@@ -201,10 +223,11 @@ nav {
     padding-right: 1rem;
     font-size: 1.2rem;
     text-align: center;
+    font-weight: 500;
 }
 
 .hero__content > .sign-up {
-    font-size: .8rem;
+    font-size: .9rem;
     color: var(--colour-text-light);
 }
 
@@ -228,7 +251,7 @@ nav {
 }
 
 .box__inner > h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
     color: var(--colour-text-medium);
 }
@@ -252,7 +275,7 @@ nav {
 
 #feature > img{
     width: 70%;
-    border-radius: 0.5rem;
+    border-radius: 0.4rem;
     margin-bottom: 1.2rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -269,6 +292,7 @@ nav {
     width: 40%;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    border-radius: 0.3rem;
 }
 
 .plus_section > .plus__cta{

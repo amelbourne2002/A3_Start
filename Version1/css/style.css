@@ -60,6 +60,11 @@ p {
     color: var(--colour-text-light);
 }
 
+.btn-primary-2{
+    background-color: #F4F4F4;
+    color: var(--colour-text-dark);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 *{
     margin: 0;
@@ -269,5 +274,89 @@ h4{
 }
 .col-4:hover{
     transform: translateY(-5px);
+}
+
+.sign-up__banner{
+    background-color: var(--colour-pink-dark);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.sign-up__banner > h2 {
+    font-size: 1.1rem;
+    color: #F4F4F4;
+    font-weight: bold;
+}
+
+.email__input{
+    display: flex;
+    align-items: center;
+}
+
+.email__input > h2 {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    color: #F4F4F4;
+    font-weight: bold;
+}
+
+.email__input > input {
+    height: 2rem;
+    width: 300px;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.terms__agreement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+
+.terms__agreement > .check-box{
+    border: solid var(--colour-text-dark);
+    height: 0.7rem;
+    width: 0.7rem;
+}
+
+.terms__agreement > p{
+    font-size: 1rem;
+    color: var(--colour-text-dark);
+    margin-left: 1rem;
+}
+
+.terms__agreement > p > a{
+    color: var(--colour-text-dark);
+}
+
+.links_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem 5rem;
+}
+
+.links_list > li > a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #474748;
+}
+
+#payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#payment > img {
+    width: 60%;
 }
   
