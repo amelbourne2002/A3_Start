@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+:root{
+    --font-heading: 'Dancing Script', cursive;
+    --font-body1: 'Cormorant', serif;
+    --font-body2: 'Lora', serif;
+    --font-label: 'Inter', sans-serif;
+    --colour-green-light: #B1A664;
+    --colour-green-dark: #9e9e6b;
+    --colour-pink-light: #EBE3DE;
+    --colour-pink-medium: #F4E0E5;
+    --colour-pink-dark: #E8CCD2;
+    --colour-beige: #A99688;
+    --colour-light: #F4F4F4;
+    --colour-white: #FFFFFF;
+    --colour-text-light: #F2EFEB;
+    --colour-text-medium: #AE9686;
+    --colour-text-dark: #171A20;
+    --colour-button-light: #EAE7D9;
+    --colour-button-medium:#957e6e;
+    --colour-button-dark:#474748;
+}
+
+body {
+    font-family: var(--font-body1);
+    color: var(--colour-dark);
+}
+header, footer {
+    background-color: var(--colour-dark);
+    color: var(--colour-light);
+}
+
+h1 {
+    font-family: var(--font-heading);
+    color: var(--colour-text-light);
+}
+
+p {
+    font-family: var(--font-body1);
+    color: var(--colour-text-light);
+}
+
+.btn {
+    text-decoration: none;
+    padding: 0.75rem 3rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: var(--colour-button-light);
+    color: var(--colour-text-dark);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.btn-secondary {
+    background-color: var(--colour-button-medium);
+    color: var(--colour-text-light);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn-tertiary {
+    background-color: var(--colour-button-dark);
+    color: var(--colour-text-light);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.btn-primary-2{
+    background-color: #F4F4F4;
+    color: var(--colour-text-dark);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn-primary:hover{
+    background-color: #cecbbe;
+    color: var(--colour-text-dark);
+    box-shadow: rgb(62, 42, 29) 0px 20px 30px -10px;
+}
+
+.btn-secondary:hover{
+    background-color: #766355;
+    color: var(--colour-text-light);
+    box-shadow: rgb(62, 42, 29) 0px 20px 30px -10px;
+}
+
+.btn-tertiary:hover{
+    background-color: #313132;
+    color: var(--colour-text-light);
+    box-shadow: rgb(54, 62, 47) 0px 20px 30px -10px;
+}
+
+.btn-primary-2:hover{
+    background-color: #ebbdbd;
+    color: var(--colour-text-dark);
+    box-shadow: rgb(152, 99, 110) 0px 20px 30px -10px;
+}
+
+
+*{
+    margin: 0;
+}
+
+.banner{
+    background: var(--colour-green-light);
+    opacity: .59;
+}
+
+.banner__content{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__text{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sign-up__banner{
+    background-color: var(--colour-pink-dark);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.sign-up__banner > h2 {
+    font-size: 1.1rem;
+    color: #F4F4F4;
+    font-weight: bold;
+}
+
+.email__input{
+    display: flex;
+    align-items: center;
+}
+
+.email__input > h2 {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    color: #F4F4F4;
+    font-weight: bold;
+}
+
+.email__input > input {
+    height: 2rem;
+    width: 300px;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.terms__agreement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+
+.terms__agreement > .check-box{
+    border: solid var(--colour-text-dark);
+    height: 0.7rem;
+    width: 0.7rem;
+}
+
+.terms__agreement > p{
+    font-size: 1rem;
+    color: var(--colour-text-dark);
+    margin-left: 1rem;
+}
+
+.terms__agreement > p > a{
+    color: var(--colour-text-dark);
+}
+
+.links_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem 5rem;
+}
+
+.links_list > li > a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #474748;
+}
+
+.links_list > li > a:hover {
+    color: var(--colour-text-medium);
+}
+
+#payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#payment > img {
+    width: 60%;
+}
