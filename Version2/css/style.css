@@ -116,7 +116,7 @@ p {
 .stack {
     display: flex;
     flex-direction: column;
-    gap: 1.2em;
+    gap: 1.4rem;
     align-items: center;
 }
 
@@ -395,6 +395,10 @@ nav {
     text-decoration: none;
     font-size: 0.9rem;
     color: #474748;
+}
+
+.links_list > li > a:hover {
+    color: var(--colour-text-medium);
 }
 
 #payment {
