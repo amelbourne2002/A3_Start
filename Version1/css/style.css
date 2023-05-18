@@ -409,17 +409,20 @@ input:focus{
 .small-img-row{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 .small-img-col{
-    flex-basis: 50%;
+    flex-basis: 0;
     cursor: pointer;
+    flex-grow: 1;
+    margin-right: 0;
 }
 .small-img-col img{
-    width: 100%;
+    width: 50%;
 }
 .row .col-2 img{
     width: 100%;
 }
-
-
+.small-img-col:last-child {
+    margin-right: 0;
+}
