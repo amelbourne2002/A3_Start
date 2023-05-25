@@ -227,7 +227,13 @@ main > .section2{
 }
 
 .products__list {
-    
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
     
 
