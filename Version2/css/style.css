@@ -10,11 +10,12 @@
     --colour-pink-light: #EBE3DE;
     --colour-pink-medium: #F4E0E5;
     --colour-pink-dark: #E8CCD2;
-    --colour-beige: #A99688;
+    --colour-beige: #EBE3DE;
     --colour-light: #F4F4F4;
     --colour-white: #FFFFFF;
     --colour-text-light: #F2EFEB;
     --colour-text-medium: #AE9686;
+    --colour-text-med-dark: #8d786b;
     --colour-text-dark: #171A20;
     --colour-button-light: #EAE7D9;
     --colour-button-medium:#957e6e;
@@ -236,31 +237,41 @@ nav {
 }
 
 
-.box__border{
+/*.box__border{
     border: solid var(--colour-pink-dark);
     width: 90%;
     height: 10vh;
     padding: 0.5rem 0.5rem;
     margin: auto;
     margin-bottom: 2rem;
-}
-
-.box__border > .box__inner{
+}*/
+.brand__message {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.box__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--colour-pink-medium);
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .box__inner > h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
-    color: var(--colour-text-medium);
+    color: var(--colour-text-med-dark);
+    margin-top: .75rem;
+    margin-bottom: .75rem;
 }
 
-#gallery{
+/*#gallery{
     background-color: var(--colour-pink-light);
     display: flex;
     justify-content: space-evenly;
@@ -327,7 +338,7 @@ nav {
     font-size: 1.2rem; 
     text-align: center;
     margin-bottom: 1.5rem;
-}
+}*/
 
 .sign-up__banner{
     background-color: var(--colour-pink-dark);
