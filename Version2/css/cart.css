@@ -189,7 +189,7 @@ nav {
 
 .cart__title > h2{
     font-size: 40px;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 #cart__section {
@@ -203,7 +203,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 75%;
 }
 
 .item{
@@ -219,19 +219,20 @@ nav {
 }
     
 .item__image > img {
-    width: 200px;
+    width: 180px;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 .cart__details{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .cart__details > h4 {
@@ -244,8 +245,8 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .item_cost > h4 {
@@ -256,16 +257,41 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5rem;
 }
-   
+
+.cart__btns > a{
+    color: var(--colour-text-dark);
+    font-size: larger;
+}
 
 .plus__minus{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: .75rem;
 }
 
+.continue-to-payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
 
+.checkbox {
+    border: var(--colour-text-dark) solid;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.checkbox > p{
+    color: var(--colour-text-dark);
+    font-size: 1.5rem;
+}
 
 .sign-up__banner{
     background-color: var(--colour-pink-dark);
