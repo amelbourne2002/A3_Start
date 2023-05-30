@@ -10,11 +10,12 @@
     --colour-pink-light: #EBE3DE;
     --colour-pink-medium: #F4E0E5;
     --colour-pink-dark: #E8CCD2;
-    --colour-beige: #A99688;
+    --colour-beige: #f1eae5;
     --colour-light: #F4F4F4;
     --colour-white: #FFFFFF;
     --colour-text-light: #F2EFEB;
     --colour-text-medium: #AE9686;
+    --colour-text-med-dark: #8d786b;
     --colour-text-dark: #171A20;
     --colour-button-light: #EAE7D9;
     --colour-button-medium:#957e6e;
@@ -100,6 +101,19 @@ p {
     margin: 0;
 }
 
+.material-symbols-outlined {
+  color: var(--colour-text-dark);
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.material-symbols-outlined:hover{
+    color: var(--colour-text-medium);
+}
+
 .banner{
     background: var(--colour-green-light);
     opacity: .59;
@@ -167,43 +181,89 @@ nav {
     padding: 0px 5px;
 }
 
+.cart__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.cart__title > h2{
+    font-size: 40px;
+    margin-top: 2rem;
+}
+
+#cart__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.cart__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.item-first-half{
+    display: flex;
+}
     
-.item > img {
+.item__image > img {
     width: 200px;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
 }
 
-.item__text{
+.cart__details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.cart__details > h4 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.item_cost{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.item_cost > h4 {
+    font-size: x-large;
+}
+
+.cart__btns{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+   
 
-.cart__details > h4{
-    margin-left: 10rem;
-    font-size: larger;
+.plus__minus{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-
-.item__text{
-    margin-bottom: 6rem;
-}
-
-.item__text > h3 {
-    font-size: larger;
-    margin-bottom: .5rem;
-}
-
-.item__text > p {
-    color: var(--colour-text-dark);
-    font-size: medium;
-}
-
-
-
-
 
 
 
