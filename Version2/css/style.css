@@ -10,11 +10,12 @@
     --colour-pink-light: #EBE3DE;
     --colour-pink-medium: #F4E0E5;
     --colour-pink-dark: #E8CCD2;
-    --colour-beige: #A99688;
+    --colour-beige: #f1eae5;
     --colour-light: #F4F4F4;
     --colour-white: #FFFFFF;
     --colour-text-light: #F2EFEB;
     --colour-text-medium: #AE9686;
+    --colour-text-med-dark: #8d786b;
     --colour-text-dark: #171A20;
     --colour-button-light: #EAE7D9;
     --colour-button-medium:#957e6e;
@@ -142,6 +143,7 @@ nav {
     align-items: center;
     height: 80px;
     padding:10px 20px;
+    margin-left: 4.5rem;
 }
 
 .logo {
@@ -211,9 +213,8 @@ nav {
 .hero__content {
     display: flex;
     flex-direction: column;
-    gap: 1.2em;
+    gap: 1.2rem;
     align-items: center;
-    height: 25%;
 }
 
 .hero__content > h1 {
@@ -236,59 +237,148 @@ nav {
 }
 
 
-.box__border{
+/*.box__border{
     border: solid var(--colour-pink-dark);
     width: 90%;
     height: 10vh;
     padding: 0.5rem 0.5rem;
     margin: auto;
     margin-bottom: 2rem;
-}
-
-.box__border > .box__inner{
+}*/
+.brand__message {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.box__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--colour-pink-medium);
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .box__inner > h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
-    color: var(--colour-text-medium);
+    color: var(--colour-text-med-dark);
+    margin-top: .75rem;
+    margin-bottom: .75rem;
 }
 
 #gallery{
-    background-color: var(--colour-pink-light);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    background-color: var(--colour-beige);
     padding: 2rem 2rem;
     padding-bottom: 3rem;
     margin-top: 2rem;
 }
 
-#gallery > #feature {
+.gallery-title{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 2rem;
+}
+
+.gallery-title > h1{
+    font-size: 2rem;
+    font-family: var(--font-body1);
+    color: var(--colour-text-dark);
+    font-weight: 600;
+}
+
+#gallery > .features {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.feature {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-#feature > img{
-    width: 70%;
+.feature > img{
+    width: 75%;
     border-radius: 0.4rem;
     margin-bottom: 1.2rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-#feature > img:hover{
+.feature > img:hover{
     transform: translateY(-5px);
 }
 
-.plus_section {
+.feature > .btn{
+    text-decoration: none;
+    padding: 0.75rem 1.75rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+
+#page-divider {
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#page-divider > img{
+    width: 100%;
+}
+
+.call-to-action > h1{
+    position: absolute;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: var(--font-body1);
+    text-shadow: 1px 1px 2px var(--colour-text-medium);
+
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+
+.hero--2{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.hero-feature-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
+.hero-feature-container > img{
+    width: 50%;
+    opacity: .85;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.hero-btn > .a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% ); 
+}
+
+
+
+
+/*.plus_section {
     background-color: #F2EFEB;
     display: flex;
     justify-content: flex-start;
@@ -327,7 +417,7 @@ nav {
     font-size: 1.2rem; 
     text-align: center;
     margin-bottom: 1.5rem;
-}
+}*/
 
 .sign-up__banner{
     background-color: var(--colour-pink-dark);
