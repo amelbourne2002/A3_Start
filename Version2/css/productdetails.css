@@ -292,13 +292,20 @@ input:focus{
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
+    overflow-x: hidden;
 }
 .small-img-col{
     flex-basis: 0;
     cursor: pointer;
     flex-grow: 1;
-    margin-right: 0;
+    margin-right: 10px;
+    flex: 0 0 auto;
+    transition: transform 0.5s ease;
 }
+.small-img-row.slide-effect .small-img-col:first-child {
+    scroll-snap-align: start;
+}
+
 .small-img-col img{
     width: 50%;
 }
