@@ -166,8 +166,7 @@ nav {
     transition: 0.3s ease;
 }
 
-.nav-bar > li > a:hover,
-.nav-bar > li > a.active{
+.nav-bar > li > a:hover{
     color: var(--colour-text-medium);
 }
 
