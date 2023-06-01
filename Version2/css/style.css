@@ -205,7 +205,7 @@ nav {
 
 .centered{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate( -50%, -50% );
 }
@@ -332,25 +332,26 @@ nav {
     width: 100%;
 }
 
+
 .call-to-action > h1{
-    position: absolute;
+    /*position: absolute;*/
     font-size: xx-large;
     font-weight: 600;
     font-family: var(--font-body1);
     text-shadow: 1px 1px 2px var(--colour-text-medium);
 
-    top: 50%;
+    /*top: 50%;
     left: 50%;
-    transform: translate( -50%, -50% );
+    transform: translate( -50%, -50% );*/
 }
 
 .hero--2{
+    position: relative;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
 .hero-feature-container {
-    position: relative;
     display: flex;
     justify-content: center;
     justify-content: center;
@@ -368,9 +369,9 @@ nav {
 
 }
 
-.hero-btn > .a{
+.centered__2{
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate( -50%, -50% ); 
 }
