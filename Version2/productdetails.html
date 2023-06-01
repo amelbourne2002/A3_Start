@@ -8,6 +8,7 @@
     <title>Product details</title>
     <link rel="stylesheet" href="/Version2/css/reset.css">
     <link rel="stylesheet" href="/Version2/css/productdetails.css">
+    <script src="script.js"> </script>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
@@ -42,51 +43,41 @@
   </nav>
 
   <hr style="width:85%; margin-left:7.5% !important; margin-right: 7.5% !important;"/>
+  
+  <div class="container flex">
+    <div class="left">
+      <div class="main_image">
+        <img src="/assets/detail1.jpg" alt="" class="slide">
+      </div>
+      <div class="option flex">
+        <img src="/assets/detail1.jpg" onclick="img('/assets/detail1.jpg')">
+        <img src="/assets/detail2.jpg" onclick="img('/assets/detail2.jpg')">
+        <img src="/assets/detail3.jpg" onclick="img('/assets/detail3.jpg')">
+        <img src="/assets/detail4.jpg" onclick="img('/assets/detail4.jpg')">
+        <img src="/assets/detail5.jpg" onclick="img('/assets/detail5.jpg')">          
+      </div>
+    </div>
+    <div class="right">
+      <h3>Champagne Satin Set</h3>
+      <h4> <small>$</small>40.00</h4>
+      <p> The set is a fashionable outfit made from a high-quality fabric blend, typically cotton, polyester, or rayon. The set includes a modern-designed top with options like a round neck, short sleeves, and decorative elements. The pants are comfortable, with options like straight-leg or tapered, and may feature an elasticized waistband and functional pockets. Care instructions may include washing in cold water with a mild detergent.</p>
+      <h5>Colour - Beige</h5>
+      <div class="color flex">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <h5>Size</h5>
+      <div class="add flex1">
+        <span>Xs</span>
+      </div>
+      <button>Add To Bag</button>
+    </div>
+  </div>
+  
    
-  <div class="small-container single-product">
-    <div class="row">
-        <div class="col-2">
-            <img src="/assets/image_hero_1.jpg" width="100%">
-        </div>
-        <div class="col-2">
-            <p>Home/ Dresses</p>
-            <h1>Pink Dress</h1>
-            <h4>$40.00 </h4>
-            <select>
-                <option> Select Size</option>
-                <option> XS</option>
-                <option> S</option>
-                <option> M</option>
-            </select>
-            <input type="number" value="1">
-            <a href="" class="btn">Add to Cart</a>
-            <h3> Product Details</h3>
-            <br>
-            <p> sdjkdskjsj </p>
-        </div>
-    </div>
-  </div>
-
-  <div class="small-container">
-    <div class="row">
-        <div class="small-img-row">
-            <div class="small-img-col">
-                <img src="/assets/detail1.jpg" width="100%">
-            </div>
-            <div class="small-img-col">
-                <img src="/assets/detail2.jpg" width="100%">
-            </div>
-            <div class="small-img-col">
-                <img src="/assets/detail3.jpg" width="100%">
-            </div>
-            <div class="small-img-col">
-                <img src="/assets/detail4.jpg" width="100%">
-            </div>
-        </div>
-        <button class="arrow arrow-left">&lt;</button>
-        <button class="arrow arrow-right">&gt;</button>
-    </div>
-  </div>
+  
   
 
   
@@ -94,17 +85,17 @@
     <div class="small-container">
       <div class="row">
           <div class="col-4">
-            <img src="/assets/oswaldo-ibanez-Rbi4rCmZQJg-unsplash 1.jpg">
+            <img src="/assets/image 36.jpg">
             <h4 class="center">Pink Dress</h4>
             <p>$40.00</p>
           </div>
           <div class="col-4">
-            <img src="/assets/raj-jariwala-EsDBaULd_bM-unsplash 1.jpg">
+            <img src="/assets/image 33.jpg">
             <h4 class="center">Pink Dress</h4>
             <p>$40.00</p>
           </div>
           <div class="col-4">
-            <img src="/assets/image 4.jpg">
+            <img src="/assets/image 34.jpg">
             <h4 class="center">Pink Dress</h4>
             <p>$40.00</p>
           </div>

@@ -259,63 +259,59 @@ h4{
     flex-basis: 50%;
 }
 
-.single-product{
-    margin-top: 80px;
-}
-.single-product col-2 img{
-    padding: 0;
-}
-.single-product col-2{
-    padding: 20px;
-}
-.single-product h4{
-    margin: 20px 0;
-    font-size: 22px;
-    font-weight: bold;
-}
-.single-product select{
-    display: block;
-    padding: 10px;
-    margin-top: 20px;
-}
-.single-product input{
-    width: 50px;
-    height: 40px;
-    padding-left: 10px;
-    font-size: 20px;
-    margin-right: 10px;
-    border: 1px solid black;
-}
-input:focus{
-    outline: none;
-}
-.small-img-row{
+.container {
     display: flex;
-    justify-content: space-between;
-    margin-top: 5px;
-    overflow-x: hidden;
-}
-.small-img-col{
-    flex-basis: 0;
-    cursor: pointer;
-    flex-grow: 1;
-    margin-right: 10px;
-    flex: 0 0 auto;
-    transition: transform 0.5s ease;
-}
-.small-img-row.slide-effect .small-img-col:first-child {
-    scroll-snap-align: start;
 }
 
-.small-img-col img{
-    width: 50%;
+.image {
+    flex: 1;
+    padding: 20px;
 }
-.row .col-2 img{
-    width: 100%;
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
+    margin-left: 100px; 
 }
-.small-img-col:last-child {
-    margin-right: 0;
+
+.details {
+    flex: 1;
+    padding: 20px;
 }
+
+/* Styles for the product details */
+.product {
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-bottom: 5px;
+}
+
+.product .price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product .colors {
+    margin-top: 10px;
+}
+
+.product .sizes {
+    margin-top: 10px;
+}
+  
+
 
 
 .sign-up__banner{

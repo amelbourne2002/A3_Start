@@ -30,4 +30,13 @@ smallImgRow.addEventListener('scroll', () => {
     smallImgRow.classList.remove('slide-effect');
     currentIndex = Math.round(smallImgRow.scrollLeft / smallImgCols[0].offsetWidth);
 });
+
+function img(anything){
+    document.querySelector('.slide').src = anything;
+}
+
+function change(change){
+    const line = document.querySelector('.home');
+    line.style.background = change;
+}
   
