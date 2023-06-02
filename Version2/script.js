@@ -39,4 +39,6 @@ function change(change){
     const line = document.querySelector('.home');
     line.style.background = change;
 }
+
+
   
