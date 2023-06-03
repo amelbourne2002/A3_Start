@@ -429,7 +429,20 @@ h4{
     border-radius: .5rem;
     font-size: 1.2rem;
 }
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
+  .button:hover {
+    background-color: #ddd;
+  }
   
   @media only screen and (max-width:768px) {
     .container {
