@@ -436,35 +436,6 @@ main > .section2{
         font-size: .5rem;
     }
 
-    nav {
-        height: 2rem;
-        padding: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .logo {
-        width: 80px;
-    }
-
-    .nav-bar{
-        margin-right: 4rem;
-    }
-
-    .nav-bar > li{
-        padding-left: .5rem;
-        padding-right: .5rem;
-    }
-    
-    .nav-bar > li > a{
-        font-size: .55rem;
-    }
-
-    .nav-icons > li{
-        display: none;
-    }
-
     main {
         flex-direction: column;
     }
