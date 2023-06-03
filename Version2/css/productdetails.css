@@ -113,14 +113,13 @@ p {
     color: var(--colour-text-medium);
 }
 
-
 .banner{
     background: var(--colour-green-light);
     opacity: .59;
 }
 
 .banner__content{
-    padding: 2px;
+    padding: .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
