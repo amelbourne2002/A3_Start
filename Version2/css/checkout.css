@@ -419,7 +419,7 @@ main > .section2{
 }
 
 /*Responsive design for mobile device*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     
     .btn {
         padding: 0.4rem 1rem;
