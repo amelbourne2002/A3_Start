@@ -379,3 +379,192 @@ nav {
 #payment > img {
     width: 60%;
 }
+
+
+@media screen and (max-width: 800px) {
+
+    .btn {
+        padding: 0.6rem 1.2rem;
+        border-radius: .3rem;
+        font-size: 1rem;
+    }
+
+    .sign-up__banner > h2 {
+        font-size: .8rem;
+        font-weight: bold;
+    }
+
+    .email__input > h2 {
+        font-size: 1rem;
+        margin-right: .5rem;
+        font-weight: bold;
+    }
+    
+    .email__input > input {
+        height: 1.5rem;
+        width: 12rem;
+    }
+
+}
+
+/*Responsive design for mobile device*/
+@media screen and (max-width: 600px) {
+    
+    .btn {
+        padding: 0.5rem 1rem;
+        border-radius: .3rem;
+        font-size: 1rem;
+    }
+
+    .stack {
+        gap: .75rem;
+    }
+
+    .banner__content{
+        padding: .3rem;
+        font-size: .5rem;
+    }
+
+    nav {
+        height: 2rem;
+        padding: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 80px;
+    }
+
+    .nav-bar{
+        margin-right: 4rem;
+    }
+
+    .nav-bar > li{
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    
+    .nav-bar > li > a{
+        font-size: .55rem;
+    }
+
+    .nav-icons > li{
+        display: none;
+    }
+
+    #cart__section {
+        margin-bottom: 2rem;
+    }
+    
+    .cart__list{
+        width: 95%;
+    }
+
+    .cart__title > h2{
+        font-size: 1.5rem;
+        margin-top: .75rem;
+    }
+
+    .cart__details > h4 {
+        font-size: medium;
+        font-weight: 500;
+    }
+
+    .item__image > img {
+        width: 7rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+    }
+
+    .item_cost > h4 {
+        font-size: medium;
+        margin-top: none;
+    }
+    
+    .cart__btns{
+        gap: 1rem;
+    }
+    
+    .cart__btns > a{
+        font-size: small;
+    }
+
+    .plus__minus{
+        gap: .5rem;
+    }
+    
+    .continue-to-payment{
+        margin-bottom: 1.5rem;
+    }
+
+    .checkbox {
+        width: 1rem;
+        height: 1rem;
+    } 
+    
+    .checkbox > p{
+        font-size: 1rem;
+    }
+
+    .sign-up__banner{
+        padding: .5rem 1rem;
+        justify-content: space-between;
+        gap: .5rem;
+    }
+
+    .sign-up__banner > h2 {
+        font-size: .6rem;
+        font-weight: bold;
+    }
+
+    .email__input > h2 {
+        font-size: .75rem;
+        margin-right: .5rem;
+        font-weight: bold;
+    }
+    
+    .email__input > input {
+        height: 1.5rem;
+        width: 10rem;
+    }
+    
+    .terms__agreement {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .terms__agreement > .check-box{
+        height: 0.4rem;
+        width: 0.4rem;
+    }
+
+    .terms__agreement > p{
+        font-size: .55rem;
+        margin-left: .75rem;
+    }
+
+    .links_list {
+        margin: 1rem 2.5rem;
+        flex-wrap: wrap;
+    }
+    
+    .links_list > li > a{
+        font-size: 0.6rem;
+    }
+    
+    .links_list > li > a:hover {
+        color: var(--colour-text-medium);
+    }
+    
+    #payment {
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+    }
+    
+    #payment > img {
+        width: 50%;
+    }
+}

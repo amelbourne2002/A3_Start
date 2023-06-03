@@ -231,11 +231,12 @@ nav {
 
 h4{
     color: Black;
-    font-weight: normal;
+    font-weight: 550;
     font-family: var(--font-body1)
 }
 .col-4 p{
-    font-size: 14px;
+    font-size: 1rem;
+    color: var(--colour-text-dark);
 }
 .center {
     text-align: center;
@@ -398,4 +399,136 @@ h4{
     width: 40%;
 }
 
+@media screen and (max-width: 800px) {
 
+    .btn {
+        padding: 0.6rem 1.2rem;
+        border-radius: .3rem;
+        font-size: 1rem;
+    }
+
+    .sign-up__banner > h2 {
+        font-size: .8rem;
+        font-weight: bold;
+    }
+
+    .email__input > h2 {
+        font-size: 1rem;
+        margin-right: .5rem;
+        font-weight: bold;
+    }
+    
+    .email__input > input {
+        height: 1.5rem;
+        width: 12rem;
+    }
+
+
+}
+
+/*Responsive design for mobile device*/
+@media screen and (max-width: 600px) {
+    
+    .btn {
+        padding: 0.4rem 1rem;
+        border-radius: .3rem;
+        font-size: .8rem;
+    }
+
+    .stack {
+        gap: .75rem;
+    }
+
+    .banner__content{
+        padding: .3rem;
+        font-size: .5rem;
+    }
+
+    nav {
+        height: 2rem;
+        padding: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 80px;
+    }
+
+    .nav-bar{
+        margin-right: 4rem;
+    }
+
+    .nav-bar > li{
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    
+    .nav-bar > li > a{
+        font-size: .55rem;
+    }
+
+    .nav-icons > li{
+        display: none;
+    }
+
+    .sign-up__banner{
+        padding: .5rem 1rem;
+        justify-content: space-between;
+        gap: .5rem;
+    }
+
+    .sign-up__banner > h2 {
+        font-size: .6rem;
+        font-weight: bold;
+    }
+
+    .email__input > h2 {
+        font-size: .75rem;
+        margin-right: .5rem;
+        font-weight: bold;
+    }
+    
+    .email__input > input {
+        height: 1.5rem;
+        width: 10rem;
+    }
+    
+    .terms__agreement {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .terms__agreement > .check-box{
+        height: 0.4rem;
+        width: 0.4rem;
+    }
+
+    .terms__agreement > p{
+        font-size: .55rem;
+        margin-left: .75rem;
+    }
+
+    .links_list {
+        margin: 1rem 2.5rem;
+        flex-wrap: wrap;
+    }
+    
+    .links_list > li > a{
+        font-size: 0.6rem;
+    }
+    
+    .links_list > li > a:hover {
+        color: var(--colour-text-medium);
+    }
+    
+    #payment {
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+    }
+    
+    #payment > img {
+        width: 50%;
+    }
+}
