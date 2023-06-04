@@ -113,22 +113,26 @@ p {
     color: var(--colour-text-medium);
 }
 
+
 .banner{
     background: var(--colour-green-light);
     opacity: .59;
+    height: 33px; 
+    
 }
 
 .banner__content{
-    padding: .5rem;
+    padding: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 160%;
 }
 
-.banner__text{
-    color: #ffffff;
-}
-
+.banner__text {
+    color: white;
+  }
+  
 nav {
     display: flex;
     justify-content: space-between;
@@ -309,7 +313,7 @@ h4{
   }
   
   h4 {
-    color: red;
+    color: rgb(8, 8, 8);
   }
   
   p {
@@ -382,7 +386,7 @@ h4{
     padding: 2rem 2rem;
     padding-bottom: 3rem;
     margin-top: 5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                rem;
 }
 
 .gallery-title{
@@ -482,12 +486,13 @@ h4{
   }
 
 
-.sign-up__banner{
+  .sign-up__banner{
     background-color: var(--colour-pink-dark);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem 2rem;
+    margin-top: 50px;
 }
 
 .sign-up__banner > h2 {
@@ -519,8 +524,8 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -534,10 +539,14 @@ h4{
     font-size: 1rem;
     color: var(--colour-text-dark);
     margin-left: 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .terms__agreement > p > a{
     color: var(--colour-text-dark);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .links_list {
@@ -578,6 +587,31 @@ h4{
         font-size: 1rem;
     }
 
+    .hero__content > h1 {
+        padding-left: .5rem;
+        padding-right: .5rem;
+        font-size: 2.2rem;
+    }
+    
+    .hero__content > p {
+        padding-left: .75rem;
+        padding-right: .75rem;
+        font-size: .8rem;
+        font-weight: 400;
+    }
+
+    .centered{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+    }
+
+    .call-to-action > h1{
+        font-size: x-large;
+        font-weight: 600;
+    }
+
     .sign-up__banner > h2 {
         font-size: .8rem;
         font-weight: bold;
@@ -598,12 +632,12 @@ h4{
 }
 
 /*Responsive design for mobile device*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     
     .btn {
         padding: 0.4rem 1rem;
         border-radius: .3rem;
-        font-size: .8rem;
+        font-size: .6rem;
     }
 
     .stack {
@@ -642,6 +676,89 @@ h4{
 
     .nav-icons > li{
         display: none;
+    }
+
+    .centered{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+    }
+
+    .hero-image-container{
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero__content {
+        gap: .5rem;
+    }
+
+    .hero__content > h1 {
+        padding-left: .25rem;
+        padding-right: .25rem;
+        font-size: 1.75rem;
+    }
+    
+    .hero__content > p {
+        padding-left: .75rem;
+        padding-right: .75rem;
+        font-size: .6rem;
+        font-weight: 400;
+    }
+    
+    .hero__content > .sign-up {
+        font-size: .5rem;
+        color: var(--colour-text-light);
+    }
+
+    .box__inner{
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        margin-bottom: 1rem;
+    }
+
+    .box__inner > h2 {
+        font-size: .75rem;
+        margin: .5rem .5rem;
+    }
+
+    #gallery{
+        background-color: var(--colour-beige);
+        padding: 1rem 1rem;
+        padding-bottom: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .gallery-title{
+        margin-bottom: 1rem;
+     }
+
+    .gallery-title > h1{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    #page-divider {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .feature > .btn{
+        padding: 0.5rem 1rem;
+        border-radius: .5rem;
+        font-size: .6rem;
+    }
+    
+    .call-to-action > h1{
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .hero--2{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 
     .sign-up__banner{
